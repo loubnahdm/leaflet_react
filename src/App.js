@@ -1,60 +1,83 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import { Map, Marker, Popup, TileLayer } from "react-leaflet";
+import useSwr from "swr";
+import {   Circle,
+  CircleMarker,
+  Map,
+  Polygon,
+  Polyline,
+  Popup,
+  Rectangle,
+  TileLayer,Marker } from "react-leaflet";
 
 
 
-import { Icon } from "leaflet";
-import * as parkData from "./data/Skateboard_Parks.json";
+  const center = [51.505, -0.09]
+
+const polyline = [
+  [51.505, -0.09],
+  [51.51, -0.1],
+  [51.51, -0.12],
+]
+
+const multiPolyline = [
+  [
+    [51.5, -0.1],
+    [51.5, -0.12],
+    [51.52, -0.12],
+  ],
+  [
+    [51.5, -0.05],
+    [51.5, -0.06],
+    [51.52, -0.06],
+  ],
+]
+
+const polygon = [
+  [51.515, -0.09],
+  [51.52, -0.1],
+  [51.52, -0.12],
+]
+
+const multiPolygon = [
+  [
+    [51.51, -0.12],
+    [51.51, -0.13],
+    [51.53, -0.13],
+  ],
+  [
+    [51.51, -0.05],
+    [51.51, -0.07],
+    [51.53, -0.07],
+  ],
+]
+
+const rectangle = [
+  [51.49, -0.08],
+  [51.5, -0.06],
+]
 
 
-
-
-const parking = new Icon({
-  iconUrl: "/img/parking-meter-export.png",
-  iconSize: [25, 25]
-});
 function App() {
-  const [activePark, setActivePark] = React.useState(null);
-  
-  
-  return ( <Map center={[45.4, -75.7]} zoom={10}>
-          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          />
-          {parkData.features.map(park => ( 
-             <Marker key={park.properties.PARK_ID} 
-                     position={[ park.geometry.coordinates[1], park.geometry.coordinates[0] ]}
-                    onClick={() => {setActivePark(park); }}
-                    icon={parking}
-             />
-        ))}
-
-
-        {activePark && (
-            <Popup
-              position={[
-                activePark.geometry.coordinates[1],
-                activePark.geometry.coordinates[0]
-              ]}
-              onClose={() => {
-                setActivePark(null);
-              }}
-            >
-              <div>
-                <h2>{activePark.properties.NAME}</h2>
-                <p>{activePark.properties.DESCRIPTION}</p>
-              </div> </Popup>)}
-              
-              </Map>);
-
-
- 
-   
-
-         
+  return (
+    <Map center={center} zoom={13}>
+    <TileLayer
+      attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+    />
+    <Circle center={center} fillColor="blue" radius={200} />
+    <CircleMarker center={[51.51, -0.12]} color="red" radius={20}>
+      <Popup>Popup in CircleMarker</Popup>
+    </CircleMarker>
+    <Polyline color="lime" positions={polyline} />
+    <Polyline color="lime" positions={multiPolyline} />
+    <Polygon color="purple" positions={polygon} />
+    <Polygon color="purple" positions={multiPolygon} />
+    <Rectangle bounds={rectangle} color="black" />
+  </Map>
+  );
 }
+
+
 
 export default App;

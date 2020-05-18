@@ -18,4 +18,5 @@ You will also see any lint errors in the console.
 ## React-Leaflet
 Documentation : https://react-leaflet.js.org/
 Installation : npm install react-leaflet
-
+## React-Leaflet : Vector Layers (Rectangle, Circle, etc)
+   install React Hooks for Remote Data Fetching :npm install swr 
