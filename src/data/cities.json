@@ -1,0 +1,54 @@
+{
+    
+    "features": [
+        { "type": "Feature", "properties": {"OBJECTID": 1,"NAME": "Monaco, Monaco"},"geometry": { "type": "Point", "coordinates": [ 43.73333, 7.41667 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Pristina, Kosovo"},"geometry": { "type": "Point", "coordinates": [ 42.67272, 21.16688 ] }},
+
+        { "type": "Feature", "properties": {"OBJECTID": 3,"NAME": "London, United Kingdom"},"geometry": { "type": "Point", "coordinates": [ 51.50853, -0.12574 ] }},
+
+        { "type": "Feature", "properties": {"OBJECTID": 4,"NAME": "Saint Helier, Jersey"},"geometry": { "type": "Point", "coordinates": [ 49.18804, -2.10491 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 5,"NAME": "Zagreb, Croatia"},"geometry": { "type": "Point", "coordinates": [ 45.81444, 15.97798 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 6,"NAME": "Vienna, Austria"},"geometry": { "type": "Point", "coordinates": [ 48.20849, 16.37208 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 7,"NAME": "Copenhagen, Denmark"},"geometry": { "type": "Point", "coordinates": [ 55.67594, 12.56553 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 8,"NAME": "San Marino, San Marino "},"geometry": { "type": "Point", "coordinates": [ 43.93667, 12.44639 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 9,"NAME": "Vatican City, Vatican"},"geometry": { "type": "Point", "coordinates": [ 41.90236, 12.45332 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 10,"NAME": "Stockholm, Sweden"},"geometry": { "type": "Point", "coordinates": [ 59.33258, 18.0649 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 11,"NAME": "Belgrade, Serbia"},"geometry": { "type": "Point", "coordinates": [ 44.80401, 20.46513] }},
+
+        { "type": "Feature", "properties": {"OBJECTID": 12,"NAME": "Bratislava, Slovakia"},"geometry": { "type": "Point", "coordinates": [48.14816, 17.10674 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 13,"NAME": "Ankara, Turkey"},"geometry": { "type": "Point", "coordinates": [39.91987, 32.85427] }},
+        { "type": "Feature", "properties": {"OBJECTID": 14,"NAME": "Madrid, Spain"},"geometry": { "type": "Point", "coordinates": [ 40.4165, -3.70256 ] }},
+
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Moscow, Russia"},"geometry": { "type": "Point", "coordinates": [ 55.75222, 37.61556] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Bucharest, Romania"},"geometry": { "type": "Point", "coordinates": [ 44.43225, 26.10626 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Lisbon, Portugal"},"geometry": { "type": "Point", "coordinates": [ 38.71667, -9.13333 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Luxembourg, Luxembourg"},"geometry": { "type": "Point", "coordinates": [ 49.61167, 6.13 ] }},
+
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Dublin, Ireland"},"geometry": { "type": "Point", "coordinates": [ 53.33306, -6.24889 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Rome, Italy"},"geometry": { "type": "Point", "coordinates": [ 41.89193, 12.51133] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Athens, Greece"},"geometry": { "type": "Point", "coordinates": [ 37.97945, 23.71622 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Berlin, Germany "},"geometry": { "type": "Point", "coordinates": [ 52.52437, 13.41053 ] }},
+
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Minsk, Belarus"},"geometry": { "type": "Point", "coordinates": [ 53.9, 27.56667 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Brussels, Belgium"},"geometry": { "type": "Point", "coordinates": [ 50.85045, 4.34878 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Paris, France"},"geometry": { "type": "Point", "coordinates": [ 48.85341, 2.3488 ] }},
+
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Helsinki, Finland"},"geometry": { "type": "Point", "coordinates": [ 60.16952, 24.93545 ] }},
+
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Paris, France"},"geometry": { "type": "Point", "coordinates": [ 48.85341, 2.3488 ] }},
+
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Amsterdam, Netherlands"},"geometry": { "type": "Point", "coordinates": [ 52.37403, 4.88969 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Bern, Switzerland"},"geometry": { "type": "Point", "coordinates": [ 46.94809, 7.44744 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Kiev, Ukraine"},"geometry": { "type": "Point", "coordinates": [ 50.45466, 30.5238 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Reykjavík, Iceland"},"geometry": { "type": "Point", "coordinates": [ 64.13548, -21.89541 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Douglas, Isle of Man"},"geometry": { "type": "Point", "coordinates": [ 54.15, -4.48333 ] }},
+        
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Budapest, Hungary"},"geometry": { "type": "Point", "coordinates": [ 47.49801, 19.03991 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Riga, Latvia"},"geometry": { "type": "Point", "coordinates": [ 56.946, 24.10589 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Tirana, Albania"},"geometry": { "type": "Point", "coordinates": [ 41.3275, 19.81889 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Warsaw, Poland"},"geometry": { "type": "Point", "coordinates": [ 52.22977, 21.01178 ] }},
+        { "type": "Feature", "properties": {"OBJECTID": 2,"NAME": "Chişinău, Moldova"},"geometry": { "type": "Point", "coordinates": [ 47.00556, 28.8575 ] }}
+
+    ]
+    }
+    

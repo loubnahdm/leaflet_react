@@ -15,3 +15,7 @@ You will also see any lint errors in the console.
 ## Download Leaflet
    npm install leaflet
    add the stylesheet for Leaflet to the head of your HTML code
+
+## leaflet-dvf
+installation : npm install leaflet-dvf
+add the stylesheet for leaflet-dvf to the head of your HTML code
