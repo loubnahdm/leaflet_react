@@ -19,3 +19,7 @@ You will also see any lint errors in the console.
 ## leaflet-dvf
 installation : npm install leaflet-dvf
 add the stylesheet for leaflet-dvf to the head of your HTML code
+
+## Small Application using Leaflet
+leaflet-arrowheads : Rendering arrow paths in Leaflet </br>
+leaflet-polylinedecorator: A Leaflet plug-in to define and draw patterns on existing Polylines or along coordinate paths.

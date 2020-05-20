@@ -1,0 +1,146 @@
+{
+    "stations": [
+        {
+            "coordinates": [
+                10.32477,
+                51.39202
+            ],
+            "properties": {
+                "NAME": "STAR Leinefelde",
+                "DESCRIPTION": "Berliner Straße 35 37327 Leinefelde - myLPG.eu"
+                
+            },
+            "transformation":{"X":20,"Y":21,"ANGLE":50,"color":"#FFFFFF"}
+        },
+        {
+            "coordinates": [
+                8.910466,
+                54.882091
+            ],
+            "properties": {
+                "NAME": "Grenz Gas Teschke",
+                "DESCRIPTION": "Gewerbegebiet 19 25923 Süderlügum - myLPG.eu"
+                
+            },
+            "transformation":{"X":28,"Y":0,"ANGLE":75,"color":"#FA2959"}
+        },
+        {
+            "coordinates": [
+                13.110844,
+                54.274318
+            ],
+            "properties": {
+                "NAME": "Bluel Autoteile Gmbh",
+                "DESCRIPTION": "Gustowerweg 11 18439 Stralsund-Andershof - myLPG.eu"
+            
+            },
+            "transformation":{"X":9,"Y":18,"ANGLE":-70,"color":"#FA2959"}
+        },
+        {
+            "coordinates": [
+                13.6906,
+                52.85203
+            ],
+            "properties": {
+                "NAME": "Favags Steffen Behnisch ",
+                "DESCRIPTION": "Walzwerkstraße 58 16244 Finowfurt - myLPG.eu"
+                
+            },
+            "transformation":{"X":20,"Y":21,"ANGLE":150,"color":"#FFFFFF"}
+        },
+        {
+            "coordinates": [
+                12.58921,
+                48.16733
+            ],
+            "properties": {
+                "NAME": "Autogastankstelle  Reinhard Kainzmaier",
+                "DESCRIPTION": "Berger 1 84579 Unterneukirchen - myLPG.eu"
+                
+            },
+            "transformation":{"X":27,"Y":-1,"ANGLE":75,"color":"#FA2959"}
+        },
+        {
+            "coordinates": [
+                11.92374,
+                50.53846
+            ],
+            "properties": {
+                "NAME": "Freie Tankstelle Weisbrod",
+                "DESCRIPTION": "Langenbacher Str. 10 07919 Mühltroff - myLPG.eu"
+            
+            },
+            "transformation":{"X":18,"Y":-5,"ANGLE":40,"color":"#7C48C3"}
+        },
+        {
+            "coordinates": [
+                10.37306,
+                54.38875
+            ],
+            "properties": {
+                "NAME": "ARAL Schönberg",
+                "DESCRIPTION": "Bahnhofstraße 32 24217 Schönberg - myLPG.eu"
+                
+            },
+            "transformation":{"X":31,"Y":0,"ANGLE":89,"color":"#7C48C3"}
+        },
+        {
+            "coordinates": [
+                7.781743,
+                53.527363
+            ],
+            "properties": {
+                "NAME": "AVIA Wittmund",
+                "DESCRIPTION": "Hauptstraße 16 26409 Wittmund-Leerhafe - myLPG.eu"
+                
+            },
+            "transformation":{"X":28,"Y":28,"ANGLE":-125,"color":"#FFFFFF"}
+        },
+        {
+            "coordinates": [
+                7.91891,
+                48.53613
+            ],
+            "properties": {
+                "NAME": "Tankhof Grün Otto Rieth E.k.",
+                "DESCRIPTION": "Obere Landstraße 13-15 77731 Willstätt-Sand - myLPG.eu"
+                
+            },
+            "transformation":{"X":4,"Y":18,"ANGLE":-53,"color":"#FFFFFF"}
+        },
+        {
+            "coordinates": [
+                6.0228,
+                51.78353
+            ],
+            "properties": {
+                "NAME": "Aral Kranenburg (Cloosters)",
+                "DESCRIPTION": "Klever Straße 85 47559 Kranenburg - myLPG.eu"
+                       },
+            "transformation":{"X":13,"Y":-3,"ANGLE":15,"color":"#7C48C3"}
+        },
+        {
+            "coordinates": [
+                7.45021,
+                52.95801
+            ],
+            "properties": {
+                "NAME": "AVIA Neubörger",
+                "DESCRIPTION": "Hauptstraße 2 26909 Neubörger - myLPG.eu"
+                
+            },
+            "transformation":{"X":25,"Y":0,"ANGLE":40,"color":"#FFFFFF"}
+        },
+        {
+            "coordinates": [
+                10.69505,
+                47.55858
+            ],
+            "properties": {
+                "NAME": "Auto Osterried",
+                "DESCRIPTION": "Tirolerstraße 61  87629 Füssen - myLPG.eu"
+            },
+            "transformation":{"X":30,"Y":0,"ANGLE":90,"color":"#7C48C3"}
+        }
+    ]
+}
